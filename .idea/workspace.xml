@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c59980c-49c0-44f8-8244-06055554623a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/builder/.idea/builder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/builder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/builder/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/builder/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/builder/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/migrations/0002_auto_20190807_1905.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/migrations/0003_auto_20190807_1911.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/models/Infomation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/permissions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/permissions/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/serializers/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/views/informationView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/send/views/userView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/clearways.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/distance/distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/distance/nodes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/distance/ways.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/getbound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/getoneways.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/importan/nodes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/importan/oneways.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/importan/relation2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/importan/relation3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/importan/relationfix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/importan/ways.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/relation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/relation2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/relation3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/relation_oneway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/relationbound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/study/da_nang.osm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/study/nodes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/study/relation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/study/ways.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawl/xmlparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_file/nodes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_file/relation_oneway_last.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_file/ways.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/images/frame137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/sendrequest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mask-rcnn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mask-rcnn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/maskrcnn_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/mask-rcnn/keras-mask-rcnn/maskrcnn_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mask-rcnn/maskrcnn_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/mask-rcnn/maskrcnn_predict.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawl/distance/distance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawl/distance/relation_last.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="19" selection-start-column="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crawl/xmlparse.py" />
+        <option value="$PROJECT_DIR$/crawl/crawlstreet.py" />
+        <option value="$PROJECT_DIR$/crawl/study/relation.py" />
+        <option value="$PROJECT_DIR$/crawl/testparse.py" />
+        <option value="$PROJECT_DIR$/crawl/study/relation2.py" />
+        <option value="$PROJECT_DIR$/crawl/study/nodes.csv" />
+        <option value="$PROJECT_DIR$/crawl/relation2.py" />
+        <option value="$PROJECT_DIR$/crawl/clearways.py" />
+        <option value="$PROJECT_DIR$/crawl/distance.py" />
+        <option value="$PROJECT_DIR$/crawl/relation.py" />
+        <option value="$PROJECT_DIR$/crawl/getbound.py" />
+        <option value="$PROJECT_DIR$/crawl/relation3.py" />
+        <option value="$PROJECT_DIR$/crawl/test.py" />
+        <option value="$PROJECT_DIR$/crawl/relationbound.py" />
+        <option value="$PROJECT_DIR$/crawl/getoneways.py" />
+        <option value="$PROJECT_DIR$/crawl/relation_oneway.py" />
+        <option value="$PROJECT_DIR$/crawl/distan.py" />
+        <option value="$PROJECT_DIR$/crawl/distance/distance.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/builder-traffic-congestion.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="width" value="990" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="send" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="distance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="importan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="builder-traffic-congestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder-traffic-congestion" type="462c0819:PsiDirectoryNode" />
+              <item name="last_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AI/mask-rcnn" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\builder-traffic-congestion\crawl\study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\builder-traffic-congestion\crawl\distance" />
+      <recent name="D:\python\builder-traffic-congestion\last_file" />
+      <recent name="D:\python\builder-traffic-congestion\crawl\importan" />
+      <recent name="D:\python\builder-traffic-congestion\crawl\study" />
+      <recent name="D:\python\builder-traffic-congestion\crawl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c59980c-49c0-44f8-8244-06055554623a" name="Default Changelist" comment="" />
+      <created>1565358024818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565358024818</updated>
+      <workItem from="1565358032020" duration="2711000" />
+      <workItem from="1565419540035" duration="9504000" />
+      <workItem from="1565527922636" duration="7523000" />
+      <workItem from="1565586407811" duration="8526000" />
+      <workItem from="1565679823762" duration="816000" />
+      <workItem from="1565699512930" duration="801000" />
+      <workItem from="1565701448482" duration="6959000" />
+      <workItem from="1565852696462" duration="7053000" />
+      <workItem from="1565874174293" duration="599000" />
+      <workItem from="1566094657192" duration="6081000" />
+      <workItem from="1566110380649" duration="495000" />
+      <workItem from="1566217875342" duration="7727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58795000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34497353" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/crawl/testxml" />
+    <entry file="file://$PROJECT_DIR$/crawl/datastreets.xml">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/study/da_nang.osm">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/crawlstreet.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/ways2.csv" />
+    <entry file="file://$PROJECT_DIR$/crawl/study/topnews.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/study/topnewsfeed.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/study/relation.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/study/relation2.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/study/crawl-tgdd-thaychau.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/ways.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/nodes.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/relation2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1560">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1565707033213" expanded="true" signature="1445:1588" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/nodes.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/study/nodes.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/study/relation.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/study/relationfix.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/clearways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/testparse.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/getbound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="19" selection-start-column="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ways.csv">
+      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/boundways.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="11" selection-start-column="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/relation_bound.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/relationfix.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/getoneways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/oneways.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relationfix.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/xmlparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-702" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="35" column="25" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/relation3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="19" selection-start-column="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relationbound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" selection-start-line="41" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation_bound.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-8814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation_oneway_last.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1898">
+          <caret line="236" column="10" selection-start-line="236" selection-end-line="236" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/last_file/relation_oneway_last.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/last_file/ways.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/distan.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/last_file/nodes.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/distance/nodes.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/relation_oneway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/importan/oneways.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-4446">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/distance/relation_last.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="19" selection-start-column="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/distance/distance (1).csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/distance/distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
